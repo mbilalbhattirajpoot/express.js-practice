@@ -1,11 +1,11 @@
 const express = require('express')
-const apphelo= express()
+const app= express()
 const port = 3000
 
-apphelo.get('/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
-apphelo.listen(port, () => {
+app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
