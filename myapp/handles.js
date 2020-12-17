@@ -1,4 +1,7 @@
 const port = 3000;
+const app = express()
+const express = require('express')
+
 //Serves static files (we need it to import a css file)
 app.use(express.static('public'))
 //Sets a basic route
